@@ -1,3 +1,154 @@
-html{
-	background-color:grey;
+body{
+	background-color: #020A18;
+	position: relative;
+	width: 1920px;
+	height: 3850px;
+	font-family: "Open Sans";
+	font-style: normal;
+}
+
+.flex {
+	display: flex;
+}
+
+a {
+	text-decoration: none;
+}
+
+.header {
+	position: relative;
+	width: 1920px;
+	height: 100px;
+	left: 0px;
+	top: 0px;
+}
+
+.logo {
+	position: absolute;
+	width: 283.09px;
+	height: 57px;
+	left: 387px;
+	top: 21px;
+}
+
+.blue-text {
+	color: #3A68B8;
+}
+
+.logo-top-text {
+	position: absolute;
+	width: 224.05px;
+	height: 31px;
+	left: 446.04px;
+	top: 36px;
+	font-weight: 600;
+	font-size: 22.5455px;
+	line-height: 31px;
+}
+
+.logo-top {
+	position: absolute;
+	width: 44.04px;
+	height: 57px;
+	left: 387px;
+	top: 21px;
+}
+
+#navbar {
+	position: absolute;
+	width: 411px;
+	height: 22px;
+	left: 754px;
+	top: 39px;
+}
+
+.home-top {
+	position: absolute;
+	width: 47px;
+	height: 22px;
+	left: 754px;
+	top: 39px;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 22px;
+	color: #FFFFFF;
+}
+
+.about-top {
+	position: absolute;
+	width: 47px;
+	height: 22px;
+	left: 841px;
+	top: 39px;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 22px;
+	color: #FFFFFF;
+}
+
+.sevices-top {
+	position: absolute;
+	width: 63px;
+	height: 22px;
+	left: 928px;
+	top: 39px;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 22px;
+	color: #FFFFFF;
+}
+
+.blog-top {
+	position: absolute;
+	width: 34px;
+	height: 22px;
+	left: 1031px;
+	top: 39px;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 22px;
+	color: #FFFFFF;
+}
+
+.contact-top {
+	position: absolute;
+	width: 60px;
+	height: 22px;
+	left: 1105px;
+	top: 39px;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 22px;
+	color: #FFFFFF;
+}
+
+.sign-in {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 15px 30px;
+	gap: 10px;
+	position: absolute;
+	width: 112px;
+	height: 52px;
+	left: 1421px;
+	top: 24px;
+	background: #3A68B8;
+	border-radius: 5px;
+}
+
+.btn {
+	width: 52px;
+	height: 22px;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 22px;
+	color: #FFFFFF;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
 }
