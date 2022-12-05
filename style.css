@@ -59,10 +59,16 @@ a {
 
 .sign-in {
 	position: absolute;
-	width: 112px;
-	height: 52px;
 	left: 1421px;
 	top: 24px;
+}
+
+.btn-sign-in {
+	width: 112px;
+	height: 52px;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 22px;
 }
 
 .middle-block1 {
@@ -78,7 +84,7 @@ a {
 	width: 632px;
 	height: 634px;
 	left: 719px;
-	top: 111px;
+	bottom: -107px;
 	background-image: url(image2.svg);
 }
 
@@ -95,10 +101,11 @@ a {
 
 h1 {
 	position: absolute;
-	width: 604px;
+	width: 550px;
 	height: 142px;
 	top: 39px;
 	font-weight: 800;
+	font-style: normal;
 	font-size: 55px;
 	line-height: 130%;
 	color: #FFFFFF;	
@@ -158,6 +165,7 @@ h1 {
 	font-weight: 600;
 	font-size: 20px;
 	line-height: 27px;
+	border-radius: 5px;
 }
 
 .sponsors {
@@ -168,6 +176,10 @@ h1 {
 	top: 872px;
 }
 
+.sponsor {
+	padding-left: 40px;
+}
+
 .bottom {
 	position: absolute;
 	width: 1277px;
@@ -176,12 +188,135 @@ h1 {
 	top: 1160px;	
 }
 
+.bottom-block {
+	position: absolute;
+	width: 484px;
+	height: 314px;
+	left: 793px;
+	top: 178px;
+}
+
+.bottom-block-img {
+	background-image: url(image3.svg);
+	position: absolute;
+	width: 725px;
+	height: 669px;
+	left: 256px;
+}
+
+.h2-bottom-block {
+	width: 484px;
+	height: 104px;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 130%;
+}
+
+.p-bottom-block {
+	width: 460px;
+	height: 78px;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 160%;
+	opacity: 0.7;
+}
+
+.button-bottom-block {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 50px 1px;
+	gap: 10px;
+	left: 1049px;
+	top: 1600px;
+}
+
+.btn-bottom-block {
+	width: 150px;
+	height: 52px;
+	border-radius: 5px;
+}
+
 .feature {
 	position: absolute;
 	width: 1930px;
 	height: 454px;
 	left: -5px;
-	top: 1999px;	
+	top: 900px;	
+}
+
+.feature-blocks1 {
+	position: absolute;
+	width: 362px;
+	height: 389px;
+	border-radius: 10px;
+}
+
+.feature-blocks1-img {
+	background-image: url(feature1.svg);
+	position: absolute;
+	width: 73px;
+	height: 69px;
+	left: 144px;
+	top: 47px;
+}
+
+.h3-fblock1 {
+	position: absolute;
+	width: 302px;
+	height: 62px;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 125%;
+	text-align: center;
+	color: #FFFFFF;
+	opacity: 0.7;
+	top: 145px;
+	left: 25px;
+}
+
+.p-fblock1 {
+	position: absolute;
+	width: 302px;
+	height: 104px;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 160%;
+	text-align: center;
+	color: #FFFFFF;
+	opacity: 0.7;
+	top: 225px;
+	left: 30px;
+}
+
+.feature-blocks2 {
+	position: absolute;
+	width: 362px;
+	height: 389px;
+	left: 387px;
+}
+
+
+
+.feature-blocks3 {
+	position: absolute;
+	width: 362px;
+	height: 389px;
+	left: 779px;
+}
+
+.feature-blocks4 {
+	position: absolute;
+	width: 362px;
+	height: 389px;
+	left: 1171px;
+}
+
+.feature-blocks5 {
+	position: absolute;
+	width: 362px;
+	height: 389px;
+	left: 1563px;
 }
 
 .about {
