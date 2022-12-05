@@ -1,66 +1,20 @@
 * {
-	font-family: "Open Sans";
-	font-style: normal;
-}
-
-body{
 	background-color: #020A18;
-	position: relative;
-	width: 1920px;
-	height: 3850px;
 }
-
 .flex {
 	display: flex;
 }
-
 a {
 	text-decoration: none;
 }
 
 .header {
-	position: relative;
-	width: 1920px;
-	height: 100px;
-	left: 0px;
-	top: 0px;
-}
-
-.logo {
-	position: absolute;
-	width: 283.09px;
-	height: 57px;
-	left: 387px;
-	top: 21px;
-}
-
-.blue-text {
-	color: #3A68B8;
-}
-
-.logo-top-text {
-	position: absolute;
-	width: 224.05px;
-	height: 31px;
-	left: 446.04px;
-	top: 36px;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-family: 'Open Sans';
+	font-style: normal;
 	font-weight: 600;
 	font-size: 22.5455px;
 	line-height: 31px;
-}
-
-.logo-top {
-	position: absolute;
-	width: 44.04px;
-	height: 57px;
-	left: 387px;
-	top: 21px;
-}
-
-#navbar {
-	position: absolute;
-	width: 411px;
-	height: 22px;
-	left: 754px;
-	top: 39px;
+	color: #3A68B8;
 }
