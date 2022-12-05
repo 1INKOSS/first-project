@@ -18,6 +18,7 @@ a {
 .btn {
 	background: #3A68B8;
 	color: #ffffff ;
+	border-radius: 0;
 }
 
 .header {
@@ -43,7 +44,7 @@ a {
 
 .logo-top-text {
 	position: absolute;
-	width: 224.05px;
+	width: 300px;
 	height: 31px;
 	left: 60px;
 	top: 36px;
@@ -89,7 +90,7 @@ a {
 }
 
 .Next-generation {
-	position: absolute;
+	position: relative;
 	width: 290px;
 	height: 29px;
 	font-weight: 600;
@@ -100,7 +101,7 @@ a {
 }
 
 h1 {
-	position: absolute;
+	position: relative;
 	width: 550px;
 	height: 142px;
 	top: 39px;
@@ -112,7 +113,7 @@ h1 {
 }
 
 .middle-block1-text {
-	position: absolute;
+	position: relative;
 	width: 558px;
 	height: 87px;
 	top: 221px;
@@ -124,7 +125,7 @@ h1 {
 }
 
 .bottom-buttons {
-	position: absolute;
+	position: relative;
 	width: 408px;
 	height: 57px;
 	top: 358px;
@@ -169,11 +170,11 @@ h1 {
 }
 
 .sponsors {
-	position: absolute;
+	position: relative;
 	width: 1146.45px;
 	height: 59px;
 	left: 387px;
-	top: 872px;
+	top: 1100px;
 }
 
 .sponsor {
@@ -181,7 +182,7 @@ h1 {
 }
 
 .bottom {
-	position: absolute;
+	position: relative;
 	width: 1277px;
 	height: 669px;
 	left: 256px;
@@ -189,7 +190,7 @@ h1 {
 }
 
 .bottom-block {
-	position: absolute;
+	position: relative;
 	width: 484px;
 	height: 314px;
 	left: 793px;
@@ -198,13 +199,14 @@ h1 {
 
 .bottom-block-img {
 	background-image: url(image3.svg);
-	position: absolute;
+	position: relative;
 	width: 725px;
 	height: 669px;
 	left: 256px;
 }
 
 .h2-bottom-block {
+	position: relative;
 	width: 484px;
 	height: 104px;
 	font-weight: 700;
@@ -213,12 +215,14 @@ h1 {
 }
 
 .p-bottom-block {
+	position: relative;
 	width: 460px;
 	height: 78px;
 	font-weight: 600;
 	font-size: 16px;
 	line-height: 160%;
 	opacity: 0.7;
+	top: 100px;
 }
 
 .button-bottom-block {
@@ -228,11 +232,12 @@ h1 {
 	padding: 50px 1px;
 	gap: 10px;
 	left: 1049px;
-	top: 1600px;
 }
 
 .btn-bottom-block {
 	width: 150px;
+	position: absolute;
+	top: 380px;
 	height: 52px;
 	border-radius: 5px;
 }
