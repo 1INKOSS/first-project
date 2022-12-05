@@ -1,10 +1,13 @@
+* {
+	font-family: "Open Sans";
+	font-style: normal;
+}
+
 body{
 	background-color: #020A18;
 	position: relative;
 	width: 1920px;
 	height: 3850px;
-	font-family: "Open Sans";
-	font-style: normal;
 }
 
 .flex {
@@ -60,95 +63,4 @@ a {
 	height: 22px;
 	left: 754px;
 	top: 39px;
-}
-
-.home-top {
-	position: absolute;
-	width: 47px;
-	height: 22px;
-	left: 754px;
-	top: 39px;
-	font-weight: 600;
-	font-size: 16px;
-	line-height: 22px;
-	color: #FFFFFF;
-}
-
-.about-top {
-	position: absolute;
-	width: 47px;
-	height: 22px;
-	left: 841px;
-	top: 39px;
-	font-weight: 600;
-	font-size: 16px;
-	line-height: 22px;
-	color: #FFFFFF;
-}
-
-.sevices-top {
-	position: absolute;
-	width: 63px;
-	height: 22px;
-	left: 928px;
-	top: 39px;
-	font-weight: 600;
-	font-size: 16px;
-	line-height: 22px;
-	color: #FFFFFF;
-}
-
-.blog-top {
-	position: absolute;
-	width: 34px;
-	height: 22px;
-	left: 1031px;
-	top: 39px;
-	font-family: 'Open Sans';
-	font-style: normal;
-	font-weight: 600;
-	font-size: 16px;
-	line-height: 22px;
-	color: #FFFFFF;
-}
-
-.contact-top {
-	position: absolute;
-	width: 60px;
-	height: 22px;
-	left: 1105px;
-	top: 39px;
-	font-weight: 600;
-	font-size: 16px;
-	line-height: 22px;
-	color: #FFFFFF;
-}
-
-.sign-in {
-	display: flex;
-	flex-direction: row;
-	align-items: flex-start;
-	padding: 15px 30px;
-	gap: 10px;
-	position: absolute;
-	width: 112px;
-	height: 52px;
-	left: 1421px;
-	top: 24px;
-	background: #3A68B8;
-	border-radius: 5px;
-}
-
-.btn {
-	width: 52px;
-	height: 22px;
-	font-family: 'Open Sans';
-	font-style: normal;
-	font-weight: 600;
-	font-size: 16px;
-	line-height: 22px;
-	color: #FFFFFF;
-	flex: none;
-	order: 0;
-	flex-grow: 0;
 }
