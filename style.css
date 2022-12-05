@@ -1,20 +1,201 @@
 * {
 	background-color: #020A18;
+	margin: 0;
+	padding: 0;
+	color:#ffffff;
 }
+
 .flex {
 	display: flex;
 }
+
 a {
 	text-decoration: none;
+	color: #ffffff;
+	padding-left: 1rem;
+}
+
+.btn {
+	background: #3A68B8;
+	color: #ffffff ;
 }
 
 .header {
-	font-family: 'Open Sans';
-	font-style: normal;
 	font-family: 'Open Sans';
 	font-style: normal;
 	font-weight: 600;
 	font-size: 22.5455px;
 	line-height: 31px;
 	color: #3A68B8;
+}
+
+.logo {
+	position: absolute;
+	left: 387px;
+}
+
+.logo-top {
+	position: absolute;
+	width: 44.04px;
+	height: 57px;
+	top: 21px;
+}
+
+.logo-top-text {
+	position: absolute;
+	width: 224.05px;
+	height: 31px;
+	left: 60px;
+	top: 36px;
+}
+
+.links {
+	position: absolute;
+	width: 47px;
+	height: 22px;
+	left: 754px;
+	top: 39px;
+}
+
+.sign-in {
+	position: absolute;
+	width: 112px;
+	height: 52px;
+	left: 1421px;
+	top: 24px;
+}
+
+.middle-block1 {
+	position: absolute;
+	width: 604px;
+	height: 415px;
+	left: 387px;
+	top: 260px;	
+}
+
+.background-rocket {
+	position: absolute;
+	width: 632px;
+	height: 634px;
+	left: 719px;
+	top: 111px;
+	background-image: url(image2.svg);
+}
+
+.Next-generation {
+	position: absolute;
+	width: 290px;
+	height: 29px;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 160%;
+	text-transform: uppercase;
+	color: #3A68B8;
+}
+
+h1 {
+	position: absolute;
+	width: 604px;
+	height: 142px;
+	top: 39px;
+	font-weight: 800;
+	font-size: 55px;
+	line-height: 130%;
+	color: #FFFFFF;	
+}
+
+.middle-block1-text {
+	position: absolute;
+	width: 558px;
+	height: 87px;
+	top: 221px;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 160%;
+	color: #FFFFFF;
+	opacity: 0.7;
+}
+
+.bottom-buttons {
+	position: absolute;
+	width: 408px;
+	height: 57px;
+	top: 358px;
+}
+
+.watch {
+	flex-direction: row;
+	align-items: flex-start;
+	position: absolute;
+	left: 211px;
+}
+
+.btn-watch {
+	width: 171px;
+	height: 57px;
+	border-radius: 5px;
+	font-weight: 600;
+	font-size: 20px;
+	padding-left: 1.5rem;
+	text-decoration: none;
+	background-image: url(play.svg);
+	background-repeat: no-repeat;
+	background-position-y: center;
+	background-position-x: 0.5rem;
+}
+
+.start {
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 15px 30px;
+	position: absolute;
+	padding: 0;
+}
+
+.btn-start {
+	width: 171px;
+	height: 57px;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 27px;
+}
+
+.sponsors {
+	position: absolute;
+	width: 1146.45px;
+	height: 59px;
+	left: 387px;
+	top: 872px;
+}
+
+.bottom {
+	position: absolute;
+	width: 1277px;
+	height: 669px;
+	left: 256px;
+	top: 1160px;	
+}
+
+.feature {
+	position: absolute;
+	width: 1930px;
+	height: 454px;
+	left: -5px;
+	top: 1999px;	
+}
+
+.about {
+	position: absolute;
+	width: 1146px;
+	height: 551px;
+	left: 387px;
+	top: 2623px;	
+}
+
+.footer {
+	position: absolute;
+	width: 1921px;
+	height: 508px;
+	left: -1px;
+	top: 3344px;	
 }
