@@ -489,7 +489,7 @@ h1 {
 	position: absolute;
 	width: 1146px;
 	height: 551px;
-	left: 387px;
+	left: -150px;
 	top: 1450px;	
 }
 
@@ -569,8 +569,8 @@ h1 {
 
 .footer {
 	position: relative;
-	width: 1921px;
-	height: 508px;
+	width: 160px;
+	height: 700px;
 	left: -1px;
 	top: 1700px;
 	font-family: 'Circular Std';
@@ -580,7 +580,7 @@ h1 {
 	position: absolute;
 	width: 160.05px;
 	height: 88.02px;
-	left: 423px;
+	left: -404px;
 }
 
 .footer-logo-img {
@@ -606,8 +606,8 @@ h1 {
 	position: relative;
 	width: 174.64px;
 	height: 15.25px;
-	left: 1302px;
-	top: 320px;
+	left: 1050px;
+	top: 280px;
 	opacity: 0.6;
 }
 
@@ -615,15 +615,15 @@ h1 {
 	position: relative;
 	width: 86px;
 	height: 18px;
-	left: 1302px;
-	top: 380px;	
+	left: 1050px;
+	top: 315px;	
 }
 
 .p1-footer {
 	position: relative;
 	width: 261px;
 	height: 54px;
-	left: 850px;
+	left: 10px;
 	top: 100px;
 
 	font-style: normal;
@@ -637,7 +637,7 @@ h1 {
 	position: relative;
 	width: 283px;
 	height: 18px;
-	left: 850px;
+	left: 10px;
 	top: 270px;
 	
 }
@@ -650,8 +650,8 @@ list-style-type: none;
 	position: relative;
 	width: 261px;
 	height: 54px;
-	left: 1302px;
-	top: 45px;
+	left: 1050px;
+	top: -35px;
 	font-style: normal;
 	font-weight: 450;
 	font-size: 14px;
@@ -664,8 +664,8 @@ list-style-type: none;
 	position: absolute;
 	width: 261px;
 	height: 18px;
-	left: 1302px;
-	top: 280px;
+	left: 1050px;
+	top: 210px;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 14px;
@@ -676,8 +676,8 @@ list-style-type: none;
 	position: absolute;
 	width: 165px;
 	height: 20px;
-	left: 1302px;
-	bottom: 420px;
+	left: 1050px;
+	bottom: 670px;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 16px;
@@ -685,9 +685,27 @@ list-style-type: none;
 }
 
 .infomation {
-	position: absolute;
+	position: relative;
 	width: 164px;
 	height: 260px;
-	left: 716px;
-	top: px;
+	left: 330px;
+	bottom: 760px;
+}
+
+li {
+	padding-bottom: 2rem;
+}
+
+.footer-menu {
+	position: relative;
+	width: 165px;
+	height: 260px;
+	left: 580px;
+	bottom: 500px;
+}
+
+.footer-links {
+	position: relative;
+	left: 800px;
+	top: -152px;
 }
