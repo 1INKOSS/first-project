@@ -429,11 +429,11 @@ h1 {
 }
 
 .swap-menu {
-	width: 15px;
+	width: 1930px;
 	height: 15px;
-	background: #2C3647;
-	backdrop-filter: blur(100px);
 	border-radius: 10px;
+	justify-content: center;
+	align-items: center;
 }
 
 .circle {
