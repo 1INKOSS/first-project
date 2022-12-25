@@ -72,13 +72,18 @@ a {
 	line-height: 22px;
 }
 
+.middle {
+	width: 1340px;
+	height: 677px;
+	position: absolute;
+	left: 387px;
+	top: 258px;
+}
+
 .middle-block1 {
 	position: absolute;
 	width: 604px;
 	height: 415px;
-	left: 387px;
-	top: 260px;
-	outline:auto;
 }
 
 .background-rocket {
@@ -174,8 +179,7 @@ h1 {
 	position: relative;
 	width: 1146.45px;
 	height: 59px;
-	left: 387px;
-	top: 900px;
+	top: 620px;
 }
 
 .sponsor {
@@ -184,11 +188,10 @@ h1 {
 
 .bottom {
 	position: relative;
-	width: 1277px;
+	width: 1530px;
 	height: 669px;
 	left: 256px;
 	top: 1000px;
-	outline:auto;
 }
 
 .bottom-block {
@@ -250,7 +253,6 @@ h1 {
 	height: 454px;
 	left: -5px;
 	top: 900px;
-	outline:auto;
 }
 
 .feature-blocks {
@@ -440,11 +442,10 @@ h1 {
 
 .about {
 	position: absolute;
-	width: 1146px;
-	height: 551px;
-	left: -150px;
+	width: 1650px;
+	height: 590px;
+	left: 0px;
 	top: 1450px;
-	outline:auto;
 }
 
 .about-block {
@@ -528,7 +529,6 @@ h1 {
 	left: 114px;
 	top: 1700px;
 	font-family: 'Circular Std';
-	outline:auto;
 }
 
 li {
