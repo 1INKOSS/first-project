@@ -1,5 +1,4 @@
 * {
-	background-color: #020A18;
 	margin: 0;
 	padding: 0;
 	color:#ffffff;
@@ -7,6 +6,11 @@
 
 .flex {
 	display: flex;
+}
+
+html body{
+width: 100%;
+	background-color: #020A18;
 }
 
 a {
@@ -28,6 +32,18 @@ a {
 	font-size: 22.5455px;
 	line-height: 31px;
 	color: #3A68B8;
+	max-width: 1920px;
+	height: 80px;
+}
+
+.header-bk {
+	position: absolute;
+	width: 3000px;
+	height: 90px;
+	background: linear-gradient(180deg, #020A18 -41.9%, #020A18 260.24%);
+	opacity: 0.2;
+	backdrop-filter: blur(100px);
+	border-radius: 10px;
 }
 
 .logo {
@@ -78,6 +94,18 @@ a {
 	position: absolute;
 	left: 387px;
 	top: 258px;
+}
+
+.middle-bk {
+	position: absolute;
+	width: 5000px;
+	height: 890px;
+	right: -1000px;
+	top: -165px;
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) -41.9%, rgba(255, 255, 255, 0.4) 260.24%);
+	opacity: 0.1;
+	backdrop-filter: blur(100px);
+	border-radius: 10px;
 }
 
 .middle-block1 {
@@ -177,13 +205,14 @@ h1 {
 
 .sponsors {
 	position: relative;
-	width: 1146.45px;
+	width: 1600px;
 	height: 59px;
 	top: 620px;
+	right: 110px;
 }
 
 .sponsor {
-	padding-left: 40px;
+	padding-left: 6rem;
 }
 
 .bottom {
@@ -249,14 +278,14 @@ h1 {
 
 .feature {
 	position: absolute;
-	width: 1930px;
+	max-width: 1930px;
 	height: 454px;
-	left: -5px;
+	left: -100px;
 	top: 900px;
 }
 
 .feature-blocks {
-	width: 1930px;
+	max-width: 1820px;
 	height: 415px;
 	border-radius: 10px;
 	justify-content: space-between;
@@ -264,14 +293,30 @@ h1 {
 }
 
 .feature-blocks1 {
-	width: 302px;
-	height: 62px;
+	width: 362px;
+	height: 389px;
+}
+
+.feature-blocks1-bk {
+	position: absolute;
+	width: 310px;
+	height: 350px;
+	padding-top: 2rem;
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) -41.9%, #FFFFFF 115.68%);
+	border: 0px;
+	border-radius: 50px;
+	backdrop-filter: blur(100px);
+	opacity: 0.1;
 }
 
 .feature-blocks1-img {
 	background-image: url(feature1.svg);
-	width: 73px;
+	background-repeat: no-repeat;
+	background-position-x: center ;
+	background-position-y: center ;
+	width: 310px;
 	height: 69px;
+	padding-top: 2rem;
 }
 
 .h3-fblock1 {
@@ -286,7 +331,7 @@ h1 {
 }
 
 .p-fblock1 {
-	width: 302px;
+	width: 310px;
 	height: 104px;
 	font-weight: 600;
 	font-size: 16px;
@@ -301,10 +346,25 @@ h1 {
 	height: 389px;
 }
 
+.feature-blocks2-bk {
+	position: absolute;
+	width: 310px;
+	height: 350px;
+	padding-top: 2rem;
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) -41.9%, #FFFFFF 115.68%);
+	border: 0px;
+	border-radius: 50px;
+	backdrop-filter: blur(100px);
+	opacity: 0.1;
+}
+
 .feature-blocks2-img {
 	background-image: url(feature2.svg);
-	width: 98px;
 	height: 103px;
+	background-repeat: no-repeat;
+	background-position-x: center ;
+	background-position-y: center ;
+	width: 310px;
 }
 
 .h3-fblock2 {
@@ -319,7 +379,7 @@ h1 {
 }
 
 .p-fblock2 {
-	width: 280px;
+	width: 310px;
 	height: 104px;
 	font-weight: 600;
 	font-size: 16px;
@@ -334,10 +394,25 @@ h1 {
 	height: 389px;
 }
 
+.feature-blocks3-bk {
+	position: absolute;
+	width: 310px;
+	height: 350px;
+	padding-top: 2rem;
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) -41.9%, #FFFFFF 115.68%);
+	border: 0px;
+	border-radius: 50px;
+	backdrop-filter: blur(100px);
+	opacity: 0.1;
+}
+
 .feature-blocks3-img {
 	background-image: url(feature3.svg);
-	width: 98px;
 	height: 103px;
+	background-repeat: no-repeat;
+	background-position-x: center ;
+	background-position-y: center ;
+	width: 310px;
 }
 
 .h3-fblock3 {
@@ -352,7 +427,7 @@ h1 {
 }
 
 .p-fblock3 {
-	width: 280px;
+	width: 310px;
 	height: 104px;
 	font-weight: 600;
 	font-size: 16px;
@@ -367,10 +442,25 @@ h1 {
 	height: 389px;
 }
 
+.feature-blocks4-bk {
+	position: absolute;
+	width: 310px;
+	height: 350px;
+	padding-top: 2rem;
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) -41.9%, #FFFFFF 115.68%);
+	border: 0px;
+	border-radius: 50px;
+	backdrop-filter: blur(100px);
+	opacity: 0.1;
+}
+
 .feature-blocks4-img {
 	background-image: url(feature4.svg);
-	width: 98px;
 	height: 103px;
+	background-repeat: no-repeat;
+	background-position-x: center ;
+	background-position-y: center ;
+	width: 310px;
 }
 
 .h3-fblock4 {
@@ -385,7 +475,7 @@ h1 {
 }
 
 .p-fblock4 {
-	width: 280px;
+	width: 310px;
 	height: 104px;
 	font-weight: 600;
 	font-size: 16px;
@@ -400,14 +490,29 @@ h1 {
 	height: 389px;
 }
 
+.feature-blocks5-bk {
+	position: absolute;
+	width: 310px;
+	height: 350px;
+	padding-top: 2rem;
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) -41.9%, #FFFFFF 115.68%);
+	border: 0px;
+	border-radius: 50px;
+	backdrop-filter: blur(100px);
+	opacity: 0.1;
+}
+
 .feature-blocks5-img {
 	background-image: url(feature5.svg);
-	width: 98px;
 	height: 103px;
+	background-repeat: no-repeat;
+	background-position-x: center ;
+	background-position-y: center ;
+	width: 310px;
 }
 
 .p-fblock5 {
-	width: 280px;
+	width: 310px;
 	height: 104px;
 	font-weight: 600;
 	font-size: 16px;
@@ -442,9 +547,9 @@ h1 {
 
 .about {
 	position: absolute;
-	width: 1650px;
+	max-width: 1650px;
 	height: 590px;
-	left: 0px;
+	left: -320px;
 	top: 1450px;
 }
 
@@ -524,11 +629,22 @@ h1 {
 
 .footer {
 	position: relative;
-	width: 1450px;
-	height: 400px;
-	left: 114px;
+	width: 1920px;
+	height: 600px;
+	right: 100px;
 	top: 1700px;
 	font-family: 'Circular Std';
+	justify-content: center;
+}
+
+.footer-bk {
+	position: absolute;
+	width: 3000px;
+	height: 600px;
+	background: linear-gradient(180deg, #020A18 -41.9%, #ffffff38 260.24%);
+	opacity: 0.5;
+	backdrop-filter: blur(100px);
+	border-radius: 10px;
 }
 
 li {
@@ -544,7 +660,10 @@ ul {
 }
 
 .footer-block1 {
-	width: 630px;
+	width: 300px;
+	height: 360px;
+	position: relative;
+	top: 100px;
 }
 
 .footer-logo-span {
@@ -559,29 +678,29 @@ ul {
 }
 
 .footer-block2 {
-	width: 500px;
+	width: 200px;
 	position: relative;
-	top: 38px;
+	top: 138px;
 	height: 360px;
 }
 
 .footer-block3 {
-	width: 500px;
+	width: 200px;
 	position: relative;
-	top: 38px;
+	top: 138px;
 	height: 360px;
 }
 
 .footer-block4 {
-	width: 500px;
+	width: 200px;
 	position: relative;
-	top: 38px;
+	top: 138px;
 	height: 360px;
 }
 
 .footer-block5 {
-	width: 500px;
+	width: 300px;
 	position: relative;
-	top: 38px;
+	top: 138px;
 	height: 360px;
 }
