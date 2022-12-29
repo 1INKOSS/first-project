@@ -9,7 +9,7 @@
 }
 
 html body{
-width: 100%;
+width: 1920px;
 	background-color: #020A18;
 }
 
@@ -38,7 +38,7 @@ a {
 
 .header-bk {
 	position: absolute;
-	width: 3000px;
+	width: 1920px;
 	height: 90px;
 	background: linear-gradient(180deg, #020A18 -41.9%, #020A18 260.24%);
 	opacity: 0.2;
@@ -98,9 +98,9 @@ a {
 
 .middle-bk {
 	position: absolute;
-	width: 5000px;
+	width: 2370px;
 	height: 890px;
-	right: -1000px;
+	right: -650px;
 	top: -165px;
 	background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) -41.9%, rgba(255, 255, 255, 0.4) 260.24%);
 	opacity: 0.1;
@@ -639,7 +639,7 @@ h1 {
 
 .footer-bk {
 	position: absolute;
-	width: 3000px;
+	width: 2500px;
 	height: 600px;
 	background: linear-gradient(180deg, #020A18 -41.9%, #ffffff38 260.24%);
 	opacity: 0.5;
